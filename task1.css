@@ -1,0 +1,28 @@
+.main-container{
+    background-color: orange;
+    padding: 10px;
+    width: 250px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+.cone{
+    height: 50px;
+}
+.container{
+    text-align: center;
+    margin-left: 50px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px white ;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+    color: yellow;
+}
