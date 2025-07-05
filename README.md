@@ -72,8 +72,8 @@ music-streaming-app/
 1. **Clone or download the project**
    ```bash
    # If you have git access
-   git clone <repository-url>
-   cd music-streaming-app
+   git clone 'https://github.com/POTTI-MOKSHAGNA/music-player.git'
+   cd music-player
    ```
 
 2. **Install dependencies**
