@@ -1,0 +1,35 @@
+{
+  "name": "music-streaming-app",
+  "version": "1.0.0",
+  "description": "Fullstack music streaming app with Deezer API",
+  "main": "backend/index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js",
+    "build": "npm run build:frontend",
+    "build:frontend": "cd frontend && npm run build && cp -r build ../build",
+    "install:frontend": "cd frontend && npm install",
+    "postinstall": "npm run install:frontend",
+    "clean": "rm -rf build frontend/build node_modules frontend/node_modules",
+    "setup": "npm install && npm run build",
+    "test": "echo 'No tests specified' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0",
+    "cookie-parser": "^1.4.6",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["music", "streaming", "deezer", "react", "express"],
+  "author": "",
+  "license": "ISC"
+}
